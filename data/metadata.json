@@ -1,0 +1,32 @@
+{
+  "Nile": {
+    "period": 1,
+    "transform": "level",
+    "unit": "10^8 m^3",
+    "frequency": "annual"
+  },
+  "Sunspots": {
+    "period": 1,
+    "transform": "level",
+    "unit": "sunspot number",
+    "frequency": "annual"
+  },
+  "CO2": {
+    "period": 12,
+    "transform": "seasonal_difference",
+    "unit": "ppm",
+    "frequency": "monthly"
+  },
+  "ElNino": {
+    "period": 12,
+    "transform": "level",
+    "unit": "degrees C",
+    "frequency": "monthly"
+  },
+  "GDP": {
+    "period": 1,
+    "transform": "log_difference",
+    "unit": "billion 2005 USD",
+    "frequency": "quarterly"
+  }
+}
